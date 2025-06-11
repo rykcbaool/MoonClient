@@ -7,7 +7,7 @@
   "authors": [
     "ryk_cbaool",
   ],
-  "accessWidener": "alien.accesswidener",
+  "accessWidener": "moon.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -15,7 +15,7 @@
     ]
   },
   "mixins": [
-    "alien.mixins.json"
+    "moon.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.0",
