@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "alien",
+  "id": "moon",
   "version": "${version}",
-  "name": "Alien",
+  "name": "MoonClient",
   "description": "Alien client",
   "authors": [
-    "ItzLuminous",
-    "NotXiguaJerry"
+    "ryk_cbaool",
   ],
   "accessWidener": "alien.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.luminous.Alien"
+      "dev.ryk.MoonClient"
     ]
   },
   "mixins": [
