@@ -5,7 +5,7 @@
   "name": "MoonClient",
   "description": "Alien client",
   "authors": [
-    "ryk_cbaool",
+    "ryk_cbaool"
   ],
   "accessWidener": "alien.accesswidener",
   "environment": "*",
