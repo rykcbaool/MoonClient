@@ -28,7 +28,7 @@ public abstract class Module extends Mod {
 		this.category = category;
 		this.description = description;
 		ModuleManager.lastLoadMod = this;
-		bindSetting = new BindSetting("Key", isGui() ? GLFW.GLFW_KEY_Y : -1);
+		bindSetting = new BindSetting("Key", isGui() ? GLFW.GLFW_KEY_RIGHT_SHIFT : -1);
 		drawnSetting = add(new BooleanSetting("Drawn", !listHide()));
 		drawnSetting.hide();
 	}
