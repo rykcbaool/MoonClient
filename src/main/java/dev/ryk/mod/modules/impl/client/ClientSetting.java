@@ -40,7 +40,7 @@ public class ClientSetting extends Module {
     public final SliderSetting speed = add(new SliderSetting("Time", 100, 0, 500, 1, () -> page.is(Page.Gui) && customButton.booleanValue));
     public final ColorSetting snow = add(new ColorSetting("Snow", new Color(255, 255, 255, 70), () -> page.is(Page.Gui)).injectBoolean(false));
 
-    public final StringSetting hackName = add(new StringSetting("Notification", "[MoonClient]", () -> page.getValue() == Page.Notification));
+    public final StringSetting hackName = add(new StringSetting("Notification", "[Raze]", () -> page.getValue() == Page.Notification));
     public final ColorSetting color = add(new ColorSetting("Color", new Color(255, 38, 38), () -> page.getValue() == Page.Notification));
     public final ColorSetting pulse = add(new ColorSetting("Pulse", new Color(145, 0, 0), () -> page.getValue() == Page.Notification).injectBoolean(true));
     public final SliderSetting pulseSpeed = add(new SliderSetting("Speed", 1, 0, 5, 0.1, () -> page.getValue() == Page.Notification && pulse.booleanValue));

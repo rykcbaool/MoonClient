@@ -15,7 +15,7 @@ public final class MoonClient implements ModInitializer {
         load();
     }
 
-    public static final String NAME = "MoonClient";
+    public static final String NAME = "Raze";
     public static final String VERSION = "2.0.0";
     public static String PREFIX = ".";
     public static final EventBus EVENT_BUS = new EventBus();

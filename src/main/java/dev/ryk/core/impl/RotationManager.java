@@ -6,6 +6,7 @@ import dev.ryk.api.events.eventbus.EventHandler;
 import dev.ryk.api.events.eventbus.EventPriority;
 import dev.ryk.api.events.impl.*;
 import dev.ryk.api.utils.Wrapper;
+import dev.ryk.mod.modules.impl.client.BaritoneModule;
 import dev.ryk.api.utils.entity.EntityUtil;
 import dev.ryk.api.utils.math.MathUtil;
 import dev.ryk.api.utils.math.Timer;

@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "id": "moon",
   "version": "${version}",
-  "name": "MoonClient",
-  "description": "Alien client",
+  "name": "RazeClient",
+  "description": "Raze client",
   "authors": [
     "ryk_cbaool"
   ],
-  "accessWidener": "alien.accesswidener",
+  "accessWidener": "raze.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [

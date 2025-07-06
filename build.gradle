@@ -8,7 +8,7 @@ version = project.mod_version
 group = project.maven_group
 
 loom {
-    accessWidenerPath = file("src/main/resources/alien.accesswidener")
+    accessWidenerPath = file("src/main/resources/raze.accesswidener")
 }
 
 repositories {
@@ -22,7 +22,6 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
     modImplementation name: 'baritone-fabric-1.10.2'
     modImplementation name: 'nether-pathfinder-1.4.1'
     modImplementation name: 'IAS-Fabric-1.20.4-9.0.2-SNAPSHOT'
